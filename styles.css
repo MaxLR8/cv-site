@@ -7,15 +7,15 @@
 
 body {
   font-family: 'Orbitron', sans-serif;
-  background: linear-gradient(135deg, #1f0036, #3a0ca3, #7209b7);
-  color: #f8f7ff;
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: #e0f7fa;
   line-height: 1.6;
   overflow-x: hidden;
   font-weight: 400;
 }
 
 a {
-  color: #ff6ec7;
+  color: #00bcd4;
   text-decoration: none;
 }
 
@@ -36,14 +36,14 @@ a {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  border: 4px solid #ff6ec7;
+  border: 4px solid #00bcd4;
   margin-bottom: 1rem;
-  box-shadow: 0 0 20px #ff6ec7;
+  box-shadow: 0 0 20px #00bcd4;
 }
 
 .tagline {
   font-size: 1.5rem;
-  color: #ffb3ec;
+  color: #81d4fa;
   margin: 0.5rem 0 2rem;
 }
 
@@ -52,7 +52,7 @@ a {
   margin: 0.5rem;
   padding: 0.75rem 1.5rem;
   border-radius: 30px;
-  background-color: #ff6ec7;
+  background-color: #00bcd4;
   color: #fff;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -60,13 +60,13 @@ a {
 
 .buttons .ghost {
   background: transparent;
-  border: 2px solid #ff6ec7;
-  color: #ff6ec7;
+  border: 2px solid #00bcd4;
+  color: #00bcd4;
 }
 
 .buttons .btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px #ff6ec7;
+  box-shadow: 0 0 10px #00bcd4;
 }
 
 /* Sections */
@@ -78,8 +78,8 @@ h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #ff6ec7;
-  text-shadow: 0 0 5px #ff6ec7;
+  color: #00bcd4;
+  text-shadow: 0 0 6px #00bcd4;
 }
 
 .project-grid {
@@ -92,15 +92,15 @@ h2 {
   background: rgba(255, 255, 255, 0.05);
   padding: 2rem;
   border-radius: 12px;
-  border: 1px solid #ff6ec7;
-  box-shadow: 0 0 15px rgba(255, 110, 199, 0.2);
+  border: 1px solid #00bcd4;
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.2);
   transition: 0.3s;
-  color: #fceaff;
+  color: #d0faff;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 25px rgba(255, 110, 199, 0.5);
+  box-shadow: 0 0 25px rgba(0, 188, 212, 0.5);
 }
 
 .skills-list {
@@ -111,29 +111,29 @@ h2 {
 }
 
 .skills-list span {
-  background-color: #2a003f;
+  background-color: #01263a;
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  border: 1px solid #ff6ec7;
-  color: #ff6ec7;
+  border: 1px solid #00bcd4;
+  color: #00bcd4;
   font-weight: 500;
   transition: 0.3s;
 }
 
 .skills-list span:hover {
-  background-color: #ff6ec7;
+  background-color: #00bcd4;
   color: #000;
 }
 
 .contact a {
-  color: #ff6ec7;
+  color: #00bcd4;
 }
 
 footer {
   text-align: center;
   padding: 2rem;
-  background: #240046;
-  color: #e0bbff;
+  background: #002f4b;
+  color: #b3e5fc;
 }
  
 .project-img {
@@ -144,7 +144,7 @@ footer {
   object-fit: contain;
   margin: 1rem 0;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(255, 110, 199, 0.2);
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.2);
   transition: transform 0.3s ease;
 }
 
